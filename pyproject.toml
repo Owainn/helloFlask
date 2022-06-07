@@ -7,6 +7,7 @@ authors = ["Kevin Bouchaud <kevin.bouchaud@le-campus-numerique.fr>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 Flask = "^2.1.2"
+Jinja2 = "^3.1.2"
 
 [tool.poetry.dev-dependencies]
 
