@@ -1,29 +1,45 @@
 # helloFlask
 Projet POO
 
-# Show python versions accessible by pyenv on your PC
+## Pyenv
+
+### Show python versions accessible by pyenv on your PC
 pyenv versions
 
-# Show python versions available for install by pyenv
+### Show python versions available for install by pyenv
 pyenv install --list
 
-# Install python version
+### Install python version
 pyenv install 3.10.4
 
-# Create virtualenv
+### Create virtualenv
 pyenv virtualenv python_version env_name
 
-# Activate environment
+### Activate environment
 pyenv activate <env_name>
 
-# List environments
+### List environments
 pyenv virtualenvs
 
-# Show python version used by default
+### Show python version used by default
 pyenv --version
 
-# Set default python version globally
+### Set default python version globally
 pyenv global python_version
 
-# Set default python version locally (one directory)
+### Set default python version locally (one directory)
 pyenv local python_version
+
+## Poetry
+
+### Initialize new project
+poetry new package_name
+
+### Add dependency
+poetry add package_name
+
+### Install project
+poetry install
+
+### Create build (whl and gz files)
+poetry build
